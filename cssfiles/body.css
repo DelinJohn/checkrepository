@@ -67,3 +67,16 @@
 .thumbnaildiv {
   position: relative;
 }
+@media(min-width:768px)
+{
+  #bottom-navbar
+  {
+    display: none;
+  }
+}
+@media(min-width:768px)
+{
+  #navbar
+  {
+    position: sticky;
+}}

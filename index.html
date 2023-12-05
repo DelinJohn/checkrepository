@@ -21,7 +21,7 @@
 </head>
 
 <body>
-
+<div id=" navbar">
   <nav id="navbar1" class="navbar navbar-expand-lg bg-body-tertiary  mx-5 ">
     <div class="container ">
       <div class="header">
@@ -58,8 +58,9 @@
           <img class="youtubeicon" src="icons/youtube-logo.svg">
         </div>
         <button id="toggleNavbar1" class="btn btn-outline-success"><i class="fa-solid fa-magnifying-glass"></i></button>
-        <button class="btn" id ="profilePicBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img style="border-radius: 30px;" class="loginpic"
-          src="profilepic/unnamed.jpg"></button>
+        <button class="btn" id="profilePicBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"><img style="border-radius: 30px;" class="loginpic"
+            src="profilepic/unnamed.jpg"></button>
         <div class="middle" id="searchform">
           <input class="searchbar" type="text" placeholder="Search">
           <button class="searchbutton" title="search button"><img class="searchicon" src="icons/search.svg"
@@ -99,10 +100,12 @@
         <button class="searchbutton" title="search button"><img class="searchicon" src="icons/search.svg"
             alt=""></button>
         <button class="voicebutton" title="voiceicon"><img class="voiceicon" src="icons/voice-search-icon.svg"></button>
-       
+
       </div>
     </div>
   </nav>
+  
+</div>
   <div class="choice">
     <div class="choiceSubdiv">
       <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
@@ -453,18 +456,33 @@
       </div>
     </div>
   </div>
-  
+
 
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Account
+        <div style="display: flex;">
+          <div><img style="border-radius: 30px;" class="loginpic"
+            src="profilepic/unnamed.jpg"></div>
+            <div>Delin Shaji<i class="fa-solid fa-chevron-down"></i><br>delinchackrapurakal@gmail.com<br><span class="offcanvasElements">Manage Your Accounts</span> 
+            </div>
+        </div>
+      </h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-      ...
+      
     </div>
   </div>
-
+  <nav class="navbar fixed-bottom bg-body-tertiary" id="bottom-navbar">
+    <form class="container-fluid justify-content-between">
+      <button class="btn" type="button"><img src="icons/home.svg" alt=""> </button>
+      <button class="btn" type="button"><img src="icons/shorts.svg" alt=""></button>
+      <button class="btn" type="button"><img src="icons/subscription.svg" alt=""></button>
+      <button class="btn" type="button"><img style="border-radius: 30px;" class="loginpic"
+        src="profilepic/unnamed.jpg"></button>
+    </form>
+  </nav>
   <script>
     function leftScroll() {
       const left = document.querySelector(".choiceSubdiv");
@@ -494,7 +512,7 @@
         $("#navbar2").toggle();
       });
     });
-
+    
   </script>
 </body>
 
