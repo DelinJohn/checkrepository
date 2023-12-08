@@ -104,6 +104,6 @@
 }
 #offcavas-right-span:hover
 {
-background-color: blue;
+color: rgb(50, 50, 107);
 text-decoration: underline;
 }
