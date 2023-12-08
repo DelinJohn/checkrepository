@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="cssfiles/header.css">
   <link rel="stylesheet" href="cssfiles/general.css">
 </head>
+
 <body>
   <header>
     <div id=" navbar">
@@ -46,17 +47,18 @@
                 <img class="library" src="sidebar icons/library.svg">
                 Library
               </div>
-    
+
             </div>
             <div class="left" id="leftelements">
               <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
                 aria-controls="offcanvasWithBothOptions" id="header-offcanvas"><i class="fa-solid fa-bars"></i></button>
               <img class="youtubeicon" src="icons/youtube-logo.svg">
             </div>
-            <button id="toggleNavbar1" class="btn btn-outline-success"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <button class="btn" id="profilePicBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"><img style="border-radius: 30px;" class="loginpic"
-                src="profilepic/unnamed.jpg"></button>
+            <button id="toggleNavbar1" class="btn btn-outline-success"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="btn" id="profilePicBtn" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img style="border-radius: 30px;"
+                class="loginpic" src="profilepic/unnamed.jpg"></button>
             <div class="middle" id="searchform">
               <input class="searchbar" type="text" placeholder="Search">
               <button class="searchbutton" title="search button"><img class="searchicon" src="icons/search.svg"
@@ -65,25 +67,25 @@
                   src="icons/voice-search-icon.svg"></button>
             </div>
             <div class="right" id="rightelements">
-    
+
               <div id="uploadIconIdDiv">
                 <button id="uploadIconId"><img title="upload" class="uploadicon" src="icons/upload.svg"></button>
                 <div id="upIcnDiscription"></div>
               </div>
-    
+
               <div class="bellicondiv" id="notificationIdDiv">
                 <button id="notificationId"><img title="notification style=" class="bellicon"
                     src="icons/notifications.svg"></button>
                 <div id="bellIconDiscritiption"></div>
               </div>
-    
+
               <div id="profilePicButtonDiv">
                 <button id="profilePicButton"><img style="border-radius: 30px;" class="loginpic"
                     src="profilepic/unnamed.jpg"></button>
-    
+
               </div>
-    
-    
+
+
             </div>
           </div>
         </div>
@@ -95,12 +97,13 @@
             <input class="searchbar" type="text" placeholder="Search">
             <button class="searchbutton" title="search button"><img class="searchicon" src="icons/search.svg"
                 alt=""></button>
-            <button class="voicebutton" title="voiceicon"><img class="voiceicon" src="icons/voice-search-icon.svg"></button>
-    
+            <button class="voicebutton" title="voiceicon"><img class="voiceicon"
+                src="icons/voice-search-icon.svg"></button>
+
           </div>
         </div>
       </nav>
-      
+
     </div>
   </header>
   <nav class="choice">
@@ -132,14 +135,14 @@
         <button class="left-choice" onclick="leftScroll()">
           < </button>
             <div class="scroll-images">
-  
+
             </div>
             <button class="right-choice" onclick="rightScroll()">></button>
       </div>
     </div>
   </nav>
   <aside>
-    
+
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
       aria-labelledby="offcanvasWithBothOptionsLabel">
       <div class="offcanvas-header">
@@ -188,43 +191,42 @@
         </div>
       </div>
     </div>
-  
+
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel">Account
-          <div style="display: flex;">
-            <div><img style="border-radius: 30px;" class="loginpic"
-              src="profilepic/unnamed.jpg"></div>
-              <div>Delin Shaji<i class="fa-solid fa-chevron-down"></i><br>delinchackrapurakal@gmail.com<br><span class="offcanvasElements">Manage Your Accounts</span> 
-              </div>
+          <div style="display: flex;padding-bottom: -50px;">
+            <div style="padding-right: 20px"><img style="border-radius: 30px;" class="loginpic"
+                src="profilepic/unnamed.jpg"></div>
+            <div style="font-size: small;
+              ">Delin Shaji<i class="fa-solid fa-chevron-down"></i><br>delinchackrapurakal@gmail.com<br><span
+                class="offcanvasElements" id="offcavas-right-span">Manage Your Accounts</span>
+            </div>
           </div>
         </h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <div class="topics">
-          <button class="hello"><img src="icons/home.svg" alt="">home</button>
-          <button class="hello"><img src="icons/shorts.svg" alt="">Shorts</button>
-          <button class="hello"><img src="icons/subscription.svg" alt="">Subscriptions</button>
+          <button class="second-offcanvas-elements"><img src="icons/your channel.svg" alt="">Your Channel</button>
+          <button class="second-offcanvas-elements"><img src="icons/switch Accounts.svg" alt="">Switch Accounts</button>
         </div>
         <div class="you">
-          <h6>You</h6>
-          <button class="hello"><img src="icons/your channel.svg" alt="">Your channel</button>
-          <button class="hello"><img src="icons/history.svg" alt="">History</button>
-          <button class="hello"><img src="icons/your videos.svg" alt="">Your videos</button>
-          <button class="hello"><img src="icons/watch later.svg" alt="">Watch later</button>
-          <button class="hello"><img src="icons/movies.svg" alt="">Your movies</button>
-          <button class="hello"><img src="icons/reshot-icon-download-2CGFX4ZBLJ.svg" alt="">Download</button>
-          <button class="hello"><img src="icons/down arrow.svg" alt="">Show more</button>
+          
+          <button class="second-offcanvas-elements"><img src="icons/purchase and member hsip.svg" alt="">Purchases and
+            memberships</button>
+          <button class="second-offcanvas-elements"><img src="icons/yourData.svg" alt="">Your Data in Toutube</button>
+          <button class="second-offcanvas-elements"><img src="icons/your videos.svg" alt="">Your videos</button>
+
         </div>
-        
+
         <div class="controls">
-          <button class="hello"><img src="icons/settings.svg" alt="">Settings</button>
-          <button class="hello"><img src="icons/help.svg" alt="">Help</button>
-          <button class="hello"><img src="icons/report history.svg" alt="">Report History</button>
-          <button class="hello"><img src="icons/send feedback.svg" alt="">Send feed back</button>
+          <button class="second-offcanvas-elements"><img src="icons/settings.svg" alt="">Settings</button>
+          <button class="second-offcanvas-elements"><img src="icons/help.svg" alt="">Help</button>
+          <button class="second-offcanvas-elements"><img src="icons/report history.svg" alt="">Report History</button>
+          <button class="second-offcanvas-elements"><img src="icons/send feedback.svg" alt="">Send feed back</button>
         </div>
-        
+
       </div>
     </div>
   </aside>
@@ -263,7 +265,7 @@
           </div>
           <div class="bodydiv">
             <p class="heading">
-  
+
               Try Not To Laugh Challenge #9
             </p>
             <p class="name">
@@ -504,7 +506,7 @@
         <button class="btn" type="button"><img src="icons/shorts.svg" alt=""></button>
         <button class="btn" type="button"><img src="icons/subscription.svg" alt=""></button>
         <button class="btn" type="button"><img style="border-radius: 30px;" class="loginpic"
-          src="profilepic/unnamed.jpg"></button>
+            src="profilepic/unnamed.jpg"></button>
       </form>
     </nav>
   </footer>
@@ -536,4 +538,5 @@
     });
   </script>
 </body>
+
 </html>
